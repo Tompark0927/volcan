@@ -1,0 +1,118 @@
+% Volcan — references (verified against arXiv / publisher sources, 2026-04-21)
+
+@misc{chollet2025arcagi2,
+  author       = {Fran{\c{c}}ois Chollet and Mike Knoop and Bryan Landers and Gregory Kamradt and Henry Pinkard and Elliot Jin and Christian Amaya},
+  title        = {{ARC-AGI-2}: {A} New Challenge for Frontier {AI} Reasoning Systems},
+  year         = {2025},
+  eprint       = {2505.11831},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
+  url          = {https://arxiv.org/abs/2505.11831},
+}
+
+@misc{jolicoeur2025trm,
+  author       = {Alexia Jolicoeur-Martineau},
+  title        = {Less is More: {Recursive} Reasoning with Tiny Networks},
+  year         = {2025},
+  eprint       = {2510.04871},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2510.04871},
+  note         = {7M parameters; 45\% on ARC-AGI-1, 8\% on ARC-AGI-2.},
+}
+
+@misc{guichard2025arcnca,
+  author       = {Etienne Guichard and Felix Reimers and Mia Kvalsund and Mikkel Lepper{\o}d and Stefano Nichele},
+  title        = {{ARC-NCA}: {Towards} Developmental Solutions to the Abstraction and Reasoning Corpus},
+  year         = {2025},
+  eprint       = {2505.08778},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.NE},
+  url          = {https://arxiv.org/abs/2505.08778},
+  note         = {{ALIFE} 2025 proceedings, Kyoto, Japan. NCA and EngramNCA variants on ARC-AGI-1.},
+}
+
+@misc{liao2025compressarc,
+  author       = {Isaac Liao and Albert Gu},
+  title        = {{ARC-AGI} Without Pretraining},
+  year         = {2025},
+  eprint       = {2512.06104},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2512.06104},
+  note         = {Known as {CompressARC}. 76K parameters; 20--34\% on ARC-AGI-1, 4\% on ARC-AGI-2; inference-time-only training via {MDL} objective. Source at \url{https://github.com/iliao2345/CompressARC}.},
+}
+
+@inproceedings{akyurek2024ttt,
+  author       = {Ekin Aky{\"u}rek and Mehul Damani and Linlu Qiu and Han Guo and Yoon Kim and Jacob Andreas},
+  title        = {The Surprising Effectiveness of Test-Time Training for Abstract Reasoning},
+  booktitle    = {International Conference on Machine Learning ({ICML})},
+  year         = {2025},
+  eprint       = {2411.07279},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2411.07279},
+  note         = {53.0\% on ARC-AGI-1 public validation (61.9\% ensembled with program synthesis) using {LoRA} + $D_8$ augmentation + per-instance training on an 8B {LM}.},
+}
+
+@misc{sorokin2025nvarc,
+  author       = {Ivan Sorokin and Jean-Fran{\c{c}}ois Puget},
+  title        = {{NVARC}: First-Place Solution to the {ARC} Prize 2025},
+  year         = {2025},
+  howpublished = {{K}aggle {ARC} Prize 2025 competition writeup},
+  url          = {https://www.kaggle.com/competitions/arc-prize-2025/writeups/nvarc},
+  note         = {24\% on ARC-AGI-2 private eval; 4B fine-tuned model with synthetic data from {gpt-oss-120B} and test-time training. {S}ource: \url{https://github.com/1ytic/NVARC}. {NVIDIA} technical blog: \url{https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/}.},
+}
+
+@misc{architects2025,
+  author       = {Daniel Franzen and Jan Disselhoff and David Hartmann},
+  title        = {{ARC} Prize 2025 Solution by the {ARC}hitects},
+  year         = {2025},
+  howpublished = {{L}ambda {L}abs technical report},
+  url          = {https://lambdalabsml.github.io/ARC2025_Solution_by_the_ARChitects/},
+  note         = {2nd place, ARC Prize 2025 ($\sim$16.5\% on private eval). 2D-aware masked-diffusion {LM} ({LLaDA}-8B) with recursive self-refinement and product-of-experts perspective scoring. Builds on the team's 2024 solution (depth-first search sampling with product-of-experts).},
+}
+
+@article{mordvintsev2020growing,
+  author       = {Alexander Mordvintsev and Ettore Randazzo and Eyvind Niklasson and Michael Levin},
+  title        = {Growing Neural Cellular Automata},
+  journal      = {Distill},
+  year         = {2020},
+  doi          = {10.23915/distill.00023},
+  url          = {https://distill.pub/2020/growing-ca/},
+}
+
+@article{levin2014molecular,
+  author       = {Michael Levin},
+  title        = {Molecular bioelectricity: how endogenous voltage potentials control cell behavior and instruct pattern regulation in vivo},
+  journal      = {Molecular Biology of the Cell},
+  volume       = {25},
+  number       = {24},
+  pages        = {3835--3850},
+  year         = {2014},
+  doi          = {10.1091/mbc.E13-12-0708},
+  url          = {https://www.molbiolcell.org/doi/10.1091/mbc.e13-12-0708},
+}
+
+@article{levin2021bioelectric,
+  author       = {Michael Levin},
+  title        = {Bioelectric signaling: Reprogrammable circuits underlying embryogenesis, regeneration, and cancer},
+  journal      = {Cell},
+  volume       = {184},
+  number       = {8},
+  pages        = {1971--1989},
+  year         = {2021},
+  doi          = {10.1016/j.cell.2021.02.034},
+  url          = {https://www.cell.com/cell/fulltext/S0092-8674(21)00223-3},
+}
+
+@inproceedings{hu2022lora,
+  author       = {Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen},
+  title        = {{LoRA}: {Low}-Rank Adaptation of Large Language Models},
+  booktitle    = {International Conference on Learning Representations ({ICLR})},
+  year         = {2022},
+  eprint       = {2106.09685},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  url          = {https://openreview.net/forum?id=nZeVKeeFYf9},
+}

@@ -1,0 +1,7 @@
+# Volcan — runtime dependencies
+# See pyproject.toml for the authoritative install spec (pip install -e .).
+# This file is kept for convenience on systems without a modern pip.
+
+torch>=2.10
+numpy>=2.0
+matplotlib>=3.8

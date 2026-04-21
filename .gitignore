@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Project artifacts (not source of truth)
+outputs/
+checkpoints/
+*.pt
+*.pth
+wandb/
+
+# Data (generated artifacts; regenerate with scripts/)
+data/ARC-AGI/
+data/ARC-AGI-2/
+data/synthetic/
+data/dream/
+data/dream_500/
+data/dream_code/
+data/dream_code_100/
+data/dream_merged/
+data/dream_wide/
+data/hyperttt_targets/
+data/hyperttt_targets_smoke/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo

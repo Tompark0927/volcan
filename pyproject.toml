@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "volcan"
+version = "0.2.0"
+description = "Morphogenetic Cellular Automata for ARC-AGI-2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.10",
+    "numpy>=2.0",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
